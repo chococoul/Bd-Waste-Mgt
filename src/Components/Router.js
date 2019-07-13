@@ -8,7 +8,6 @@ import Home from './Home';
 import Services from './Services';
 import GetInvolved from './GetInvolved';
 import Recycling from './Recycling';
-import Footer from './Footer';
 import Contact from './Contact';
 import Test from './Test';
 export default class Router extends Component {
@@ -25,7 +24,7 @@ export default class Router extends Component {
         <Route path='/videos' component={Videos}/>
         <Route path ='/contact' component={Contact}/>
         <Route path ='/test' component={Test}/>
-        {/* <Route path='/footer' component={Footer}></Route> */}
+        
 
       </div>
     )

@@ -17,12 +17,7 @@ export default class Services extends Component {
     <div className="container">
       <img className="d-block w-100" src="./img/Services/2.jpg" alt="Second slide"/>
       </div>
-    </div>
-    {/* <div className="carousel-item"> */}
-    {/* <div className="container">
-      <img className="d-block w-100" src="./img/Home/3.jpg" alt="Third slide"/>
-      </div>
-    </div> */}
+    </div>    
   </div>
   <a className="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -105,7 +100,7 @@ export default class Services extends Component {
     {/* <!-- Grid column --> */}
     <div className="col-lg-3 col-md-6 mb-md-0 mb-5">
       <div className="avatar mx-auto">
-        <img src="/img/TEAM/sherif.jpg" className="rounded-circle z-depth-1 img-fluid"/>
+        <img src="/img/TEAM/sherif.jpg" className="rounded-circle z-depth-1 img-fluid" alt="sherif"/>
           {/* alt="Sample avatar"> */}
       </div>
       <h5 className="font-weight-bold mt-4 mb-3">Sherif Inusah</h5>
@@ -132,7 +127,7 @@ export default class Services extends Component {
     {/* <!-- Grid column --> */}
     <div className="col-lg-3 col-md-6">
       <div className="avatar mx-auto">
-        <img src="/img/TEAM/richard.jpg" className="rounded-circle z-depth-1 img-fluid"/>
+        <img src="/img/TEAM/richard.jpg" className="rounded-circle z-depth-1 img-fluid" alt="richard"/>
           {/* alt="Sample avatar"> */}
       </div>
       <h5 className="font-weight-bold mt-4 mb-3">Richard Hartung </h5>

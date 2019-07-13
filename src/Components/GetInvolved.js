@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import axios from 'axios';
+
 
 export default class GetInvolved extends Component {
   state = {
@@ -53,11 +53,8 @@ export default class GetInvolved extends Component {
       });
     }
 
-  render() {
-    const isValidName = this.state.name.length > 3;
-  const isValidEmail = this.state.email.length > 3;
-  // const isValidSubject= this.state.name.length > 3;
-  // const isValidMessage = this.state.email.length > 3;
+  render() {   
+  
     return (
  <div className="bg-white">
         <div className=" text-center  my-3">
@@ -120,23 +117,23 @@ export default class GetInvolved extends Component {
           <div className="col-xs-6 col-sm-6 col-md-6 bg-light mb-2">
           <div id="map-container-google-11" className="z-depth-1-half map-container-6 " style={{height: '300px'}}>
         <iframe src="https://maps.google.com/maps?q=accra%20digital%20center&t=&z=17&ie=UTF8&iwloc=&output=embed"
-          frameborder="0" style={{border:'0'}} allowfullscreen></iframe>
+          frameborder="0" style={{border:'0'}} title="myFrame" allowfullscreen></iframe>
       </div>
       <div className="row text-center ">
         <div className="col-md-6">
-          <a className="btn-floating blue accent-1"><i className="fas fa-map-marker-alt text-dark"></i></a>
+          <a className="btn-floating blue accent-1" href="#"><i className="fas fa-map-marker-alt text-dark"></i></a>
           <p>Accra digital center</p>
           <p>Ghana</p>
         </div>
 
         <div className="col-md-6">
-          <a className="btn-floating blue accent-1" ><i className="fas fa-phone text-dark"></i></a>
+          <a className="btn-floating blue accent-1" href="#" ><i className="fas fa-phone text-dark"></i></a>
           <p>+ 233-570426896 /<br></br> +233-545842071</p>
           <p>Mon - Fri, 8:00-22:00</p>
         </div>
 
         <div className="col-md-6">
-          <a className="btn-floating blue accent-1" mailto='info@bdwaste.com'><i className="fas fa-envelope text-dark "></i></a>
+          <a className="btn-floating blue accent-1 " mailto='info@bdwaste.com'><i className="fas fa-envelope text-dark "></i></a>
           <p>info@bdwaste.com</p>
          
         </div>
