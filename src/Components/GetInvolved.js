@@ -127,19 +127,22 @@ export default class GetInvolved extends Component {
         </div>
 
         <div className="col-md-6">
-          <a className="btn-floating blue accent-1" href="#" ><i className="fas fa-phone text-dark"></i></a>
-          <p>+ 233-570426896 /<br></br> +233-545842071</p>
+          <a className="btn-floating blue accent-1" href="tel:+233570426896" ><i className="fas fa-phone text-dark"></i></a>
+          <p>+233570426896<br>
+          </br> </p>
+          <a className="btn-floating blue accent-1" href="tel:+233545842071" ><i className="fas fa-phone text-dark"></i></a><p>+233545842071 <br></br></p>
           <p>Mon - Fri, 8:00-22:00</p>
         </div>
 
         <div className="col-md-6">
-          <a className="btn-floating blue accent-1 " mailto='info@bdwaste.com'><i className="fas fa-envelope text-dark "></i></a>
+          <a className="btn-floating blue accent-1 " href='mailto:info@bdwaste.com'><i className="fas fa-envelope text-dark "></i></a>
           <p>info@bdwaste.com</p>
          
         </div>
         <div className="col-md-6">
           <a className="btn-floating blue accent-1"href="whatsapp://send?abid=+233570426896&text=Hello%2C%20World!"><i className="fab fa-whatsapp text-dark"></i></a>
           <p>+233570426896</p>
+          <a href="https://chat.whatsapp.com/invite/JBjjUNjHAaIHjXNr2DU9I0" target="_blank"></a>
          
         </div>
       </div>

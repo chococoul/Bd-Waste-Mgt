@@ -27,7 +27,7 @@ export default class Dos extends Component {
                 <div className="card my-3">
                 <div className="card-horizontal my-5">
                     <div className="img-square-wrapper">
-                        <img className="img-fluid"  width="250" height="250" src="./img/webpics/bottle.png" alt="Card image cap"/>
+                        <img className="img-fluid"  width="250" height="250" src="./img/webpics/bottle.png" alt="bottle"/>
                     </div>
                     <div className="card-body">
                         <h4 className="card-title">Plastics/Bottles</h4>
@@ -45,7 +45,7 @@ export default class Dos extends Component {
                     <div className="card my-3">
                     <div className="card-horizontal my-5">
                     <div className="img-square-wrapper">
-                        <img className="img-fluid"   src="./img/webpics/paper.png" alt="Card image cap"/>
+                        <img className="img-fluid"   src="./img/webpics/paper.png" alt="paper"/>
                     </div>
                     <div className="card-body">
                         <h4 className="card-title">Papers/CardBoard</h4>
@@ -64,7 +64,7 @@ export default class Dos extends Component {
                     <div className="card my-3">
                     <div className="card-horizontal my-5">
                     <div className="img-square-wrapper">
-                        <img className="img-fluid"  width="250" height="250" src="./img/webpics/can.jpg" alt="Card image cap"/>
+                        <img className="img-fluid"  width="250" height="250" src="./img/webpics/can.jpg" alt="metals"/>
                     </div>
                     <div className="card-body">
                         <h4 className="card-title">Metals</h4>
@@ -82,7 +82,7 @@ export default class Dos extends Component {
                     <div className="card-horizontal my-5">
                     <div className="img-square-wrapper">
                         
-                        <img className=" img-fluid"  width="250" height="250" src="./img/webpics/glass.png" alt="Card image cap"/>
+                        <img className=" img-fluid"  width="250" height="250" src="./img/webpics/glass.png" alt="glass"/>
                     </div>
                     <div className="card-body">
                         <h4 className="card-title">Glass</h4>
